@@ -20,9 +20,8 @@ Bash will exit a shell with *SIGHUP*.
 
 ## List of signals
 
-|---------------|-------|-----------|-------------------|---------------|
 | Signal        | Value | Key       | Name              | Description   |
-|---------------|-------|-----------|-------------------|---------------|
+|---------------|:-----:|:---------:|:-----------------:|:-------------:|
 | SIGHUP        | 1     |           | Hangup            | Terminate - terminal was disconnected |
 | SIGINT        | 2     | Ctrl+C    | Interrupt         | Terminate the program gracefully. |
 | SIGQUIT       | 3     | Ctrl+\    | Quit              | Terminate the program gracefully, with core dump. Used for debugging. |
@@ -43,8 +42,6 @@ Bash will exit a shell with *SIGHUP*.
 | SIGSYS        | 31    |           | Bad system call   | |
 | SIGRTMIN      | 34    |           |                   | |
 | SIGRTMAX      | 64    |           |                   | |
-
-## Signals from the Keyboard
 
 ## Links
 
