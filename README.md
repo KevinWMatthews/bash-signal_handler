@@ -51,3 +51,4 @@ Bash will exit a shell with *SIGHUP*.
   * Linux docs: `man 7 signal`
   * List of signals: `kill -l`
   * [GNU.org](https://www.gnu.org/software/libc/manual/html_node/Standard-Signals.html#Standard-Signals)
+  * [Bash signal traps](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_12_02.html)
